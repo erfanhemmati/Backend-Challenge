@@ -1,0 +1,21 @@
+{
+    "name": "erfanhemmati/backend-challenge",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Src\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Erfan Hemmati",
+            "email": "e.hemmati.19@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.23",
+        "symfony/cache": "^7.1",
+        "phpunit/phpunit": "^11.3"
+    }
+}
